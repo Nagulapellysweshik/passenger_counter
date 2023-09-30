@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger counter</title>
+    <style>
+        body{
+            margin-top: 220px;
+            background: url('passenger_counter.jpg') center/cover no-repeat;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="counter.js"></script>
+    <h1>Passenger Counter</h1>
+    <h2 id="value">0</h2>
+    <button onclick="increment()">Increment</button>
+    <button onclick="decrement()">Decrement</button>
+    <button onclick="save()">Save</button>
+    <h1 id="previous">previous counters: </h1>
+</body>
+</html>
